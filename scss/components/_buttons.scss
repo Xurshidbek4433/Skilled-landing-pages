@@ -1,0 +1,34 @@
+.hero-btn {
+  padding: 1.4rem 3.2rem 1.4rem 3.1rem;
+  background-color: $dark-grenn-colo;
+  border-radius: 2.8rem;
+  color: $white-color;
+}
+
+.hero-btn:hover {
+  background-color: $silver-color;
+}
+
+.main-btn {
+  padding: 1.9rem 3.1rem 1.6rem 3.2rem;
+  background-image: $red-linegradet-color;
+  border-radius: 3.1rem;
+  color: $white-color;
+}
+
+.main-btn:hover {
+  background-image: $red-linegradet-color;
+  opacity: 0.5;
+}
+
+.footer-btn {
+  padding: 1.4rem 3.1rem 1.4rem 3.2rem;
+  background-image: $green-linegradet-color;
+  border-radius: 2.8rem;
+  color: $white-color;
+}
+
+.footer-btn:hover {
+  background-image: $green-linegradet-color;
+  opacity: 0.5;
+}
