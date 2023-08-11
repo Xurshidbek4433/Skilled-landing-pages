@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+}
+
+.nav-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3.8rem;
+}
+
+.header-sub {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.header-item-left p {
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.header-img {
+  position: relative;
+  left: 11.5rem;
+  bottom: 9.5rem;
+}
+
+@media screen and (max-width: 1260px) {
+  .header-img {
+    width: 500px;
+    left: 7.5rem;
+  }
+
+  
+}

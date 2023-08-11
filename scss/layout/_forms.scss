@@ -1,0 +1,36 @@
+.main {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+.card-item {
+  background-image: $red-linegradet-color;
+}
+.card-item h3 {
+  color: $white-color;
+}
+.card-inner {
+  width: 350px;
+  height: 322px;
+  box-shadow: 5px 3px 10px #4e4e4e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 0rem 3rem;
+  margin-bottom: 30px;
+}
+
+.card-inner img {
+  margin-top: -60px;
+}
+
+.card-inner a {
+  color: $pink-color;
+}

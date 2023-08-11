@@ -1,0 +1,12 @@
+.footer {
+    width: 100%;
+    background-color: $dark-grenn-colo;
+    
+}
+
+.footer-iten {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+}

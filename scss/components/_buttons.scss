@@ -6,7 +6,8 @@
 }
 
 .hero-btn:hover {
-  background-color: $silver-color;
+  background-color: $blue-color;
+  cursor: pointer;
 }
 
 .main-btn {
@@ -19,6 +20,7 @@
 .main-btn:hover {
   background-image: $red-linegradet-color;
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .footer-btn {
@@ -31,4 +33,5 @@
 .footer-btn:hover {
   background-image: $green-linegradet-color;
   opacity: 0.5;
+  cursor: pointer;
 }
